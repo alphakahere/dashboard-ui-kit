@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card4 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/10/13/13/28/ameland-5651866__340.jpg");
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.circlewidth {
+    border-width: 18px;
+}
+
+.dpanel{
+    width: 390px;
+    height: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+    .dpanel{
+        width: 695px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .dpanel{
+        width: 950px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .dpanel{
+        width: 1300px;
+    }
+}
+
+.cw9{
+    width: 100% !important;
+    height: 80vh !important;
+}
+@media screen and (min-width:1536px){
+    .cw9{
+        height: 100% !important;
+    }
+}
